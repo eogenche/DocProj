@@ -1,0 +1,27 @@
+.navbar-nav{
+    padding-left:30pxpx ;
+
+}
+.nav-item{
+    margin-left: 100px;
+    font-size:25px;
+    
+}
+.header{
+    font-family: 'EB Garamond', serif;
+    color: wheat;
+}
+.container{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+*{
+    background-image: url(images/training-room-furniture-slide-004.jpg);
+    background-repeat: no-repeat;
+    background-size:100% ;
+    background-attachment: fixed;
+}
+ul,h2,h3{
+    color: wheat;
+}
