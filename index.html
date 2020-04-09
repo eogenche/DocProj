@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="jobseeker.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="styles.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
-        <title>Clinics</title>
+    <script src="script.js"></script>
+    <title>Clinics</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm justify-content-center bg-success navbar-dark">
@@ -23,45 +22,80 @@
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">aboutus</a>
+            <a class="nav-link" href="#">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">contacts</a>
+            <a class="nav-link" href="#">Contacts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">special Clinics</a>
+            <a class="nav-link active" href="#">Special Clinics</a>
           </li>
         </ul>
       </nav>
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-8">
                 <div class="card body">
-                    <h3 class="card title">Training calendar</h3>
-                <ul>
-                    <li>Monday</li>
-                    <li>Tuesday</li>
-                    <li>Wensday</li>
-                    <li>Thurday</li>
-                    <li>Friday</li>
-                    <li>Saturday</li>
-                </ul>
+                      
+                        <!-- [PERIOD SELECTOR] -->
+                        <div class="col-md-2">
+                          <P>April 2020</p>
+                        </div>
+                        <div class="container">
+                            <div class=row>
+                              <div class="col-md-8">
+                              <div class="col-sm-3" id="D"><a href="#">Mon 7th</a></div>
+                              <div class="col-sm-3" id="D1"><a href="#">Tue 8th</a></div>
+                              <div class="col-sm-3" id="D2"><a href="#">Wed 9th</a></div>
+                              <div class="col-sm-3" id="D3"><a href="#">Thur 10th</a></div>
+                              <div class="col-sm-3" id="D4"><a href="#">Fri 11th</a></div>
+                            </div>   
+                        </div>                    
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card body">
-                     <h2 class="card title ">Special Clinics and any Additional Information Info</h2>
-                     <ul>
-                         <li><a href="#">Pschiatric clinic</a></li>
-                         <li><a href="#">Diabetic clinic</a></li>
-                         <li><a href="#">Orthopedic clinic</a></li>
-                         <li><a href="#">Physician clinic</a></li>
-                         <li><a href="#">Family planning MCH clinic</a></li>
-                         <li><a href="#">Tb clinic</a></li>
-                     </ul>
-                </div>
-            </div>
-            <div class="col-md-3"></div>
         </div>
+            <div class="col-md-4">
+                <div class="card body">
+                     <h4 class="card title ">Special Clinics Information</h4>
+                         <div id="c">
+                           <p>We Have special clinics and events for all depending on the day of the week </p>
+                         </div>
+                         <div id="c1">
+                           <p>Psychiatric clinic<br>Open every Monday  <br> clinic number 23<br> Dr.Wekesa</p>
+                         </div>
+                         <div id="c2">
+                           <p>Diabetic clinic<br>Open every Tuesday  <br> clinic number 28<br> Dr.Patmos</p>
+                          </div>
+                         <div id="c3">
+                           <p>Orthopedic clinic <br>Open every Wednesday  <br> clinic number 29<br> Dr.Wekesa</p>
+                         </div>
+                         <div id="c4">
+                           <p>Physician clinic</p>
+                         </div>
+                         <div id="c5">
+                           <p>Family planning MCH clinic</p>
+                         </div>
+                         <div id="c6">
+                           <p>TB clinic</p>
+                          </div>
+                </div>
+              </div>
+            <div class="col-md-3">  
+            <footer class="text-center" id="footer">
+              <img src ="images/behance.png">
+              <img src="images/dribble.png">
+              <img src="images/facebook.png">
+              <img src="images/flickr.png">
+              <img src="images/g_plus.png">
+              <img src="images/pinterest.png">
+              <img src="images/skype.png">
+              <img src="images/stumble_upon.png">
+              <img src="images/twitter.png"><br>
+              <br><p>Training Clinics</p>
+              <p>2020</p>
+            </footer>
+            </div>
+      </div>
     </div>
-</body>
+  </body>
+</html>

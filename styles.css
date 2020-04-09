@@ -1,5 +1,6 @@
 .navbar-nav{
     padding-left:30pxpx ;
+    padding-top: 20px;
 
 }
 .nav-item{
@@ -11,6 +12,7 @@
     font-family: 'EB Garamond', serif;
     color: wheat;
 }
+
 .container{
     position: absolute;
     top: 30%;
@@ -22,6 +24,43 @@
     background-size:100% ;
     background-attachment: fixed;
 }
-ul,h2,h3{
+ul,h2,h3,h4,p{
     color: wheat;
+    padding-right: 0%;
+}
+
+/* [DOES NOT MATTER] */
+html, body, textarea, input{
+  font-family: helvetica, sans-serif;
+}
+#page-body{
+  max-width: 5%;
+  height: 10%;
+  width: 5%;
+}
+#cal-container{
+    width: 10%;
+    height: 10%;
+}
+#c1{
+  display:none;
+}
+#c2{
+  display:none;
+}
+#c3{
+  display:none;
+}
+#c4{
+  display:none;
+}
+#c5{
+  display:none;
+}
+#c6{
+  display:none;
+}
+.footer{
+  text-align: center;
+  padding: 40px;
 }
