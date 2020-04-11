@@ -1,5 +1,5 @@
 .navbar-nav{
-    padding-left:30pxpx ;
+    padding-left:30px;
     padding-top: 20px;
 
 }
@@ -64,9 +64,12 @@ html, body, textarea, input{
 #c6{
   display:none;
 }
-#text-center{
-
-  padding: 40px;
+.text-center{
   text-align: center;
-  padding: 40px;
+  position: absolute;
+  width: 100%;
+  padding-top: 85%;
+  padding-left: 10%;
+  
+  
 }
