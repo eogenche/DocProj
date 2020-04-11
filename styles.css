@@ -24,9 +24,13 @@
     background-size:100% ;
     background-attachment: fixed;
 }
-ul,h2,h3,h4,p{
+ul,h2,h3,h4{
     color: wheat;
     padding-right: 0%;
+}
+p{
+  color: whitesmoke;
+  padding-right: 0%;
 }
 
 /* [DOES NOT MATTER] */
@@ -60,7 +64,9 @@ html, body, textarea, input{
 #c6{
   display:none;
 }
-.footer{
+#text-center{
+
+  padding: 40px;
   text-align: center;
   padding: 40px;
 }
